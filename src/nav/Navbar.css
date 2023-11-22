@@ -1,0 +1,57 @@
+.sidebar {
+    width: 118px; 
+    background-color: black; 
+    transition: width 0.3s ease; 
+    height: 100vh;
+    overflow-y: auto; 
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .sidebar:hover {
+    width: 300px; 
+  }
+  
+  .sidebar .icon {
+    display: inline-block;
+    transition: opacity 0.3s ease;
+  }
+  
+  .sidebar .name {
+    display: none;
+  }
+  
+  .sidebar:hover .icon {
+    float: left;
+    opacity: 1; 
+  }
+  
+  .sidebar:hover .name {
+    display: inline-block; 
+    opacity: 1; 
+  }
+  
+  .sidebar .nav-link {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+  }
+  
+  .sidebar:hover .nav-link {
+    padding-left: 30px; 
+  }
+  .nav_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .nav_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+.active {
+    background: gray;
+    border-radius: 14px;
+}

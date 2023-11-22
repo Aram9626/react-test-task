@@ -1,0 +1,33 @@
+.main_body {
+    width: 93%;
+    float: right;
+    position: relative;
+}
+.text-left {
+    text-align: left;
+}
+.footer_carousel {
+    position: absolute;
+    width: 99%;
+    bottom: 0;
+}
+.slick-next {
+    display: none !important;
+}
+.m_description {
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.w-120{
+    width: 120px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.btn {
+    border-radius: 20px;
+}
